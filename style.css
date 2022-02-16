@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Charmonman:wght@400;700&family=La+Belle+Aurore&family=Lato:ital,wght@0,300;0,700;1,100&family=Meow+Script&family=Over+the+Rainbow&family=Patrick+Hand&family=Roboto:wght@300&family=Supermercado+One&display=swap');
+
+
+/* Main Elements */
+
+
+html{
+  font-size: 10px;
+  font-family: 'Patrick Hand', cursive;
+  text-align:  center;
+  display: inline-flex;
+  background-image: url("images/zoomtile.jpg");
+  background-position: center;
+}
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+body, h1, h4, p{
+  margin: 0;
+}
+
+
+h1{
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+h2{
+  font-family: 'Over the Rainbow', cursive;
+  display: block;
+  font-size: 35px;
+  margin-inline-end: 40px;
+}
+
+
+h4{
+  font-size: 15px;
+  font-style: italic;
+}
+
+
+h3{
+font-size: 30px;
+}
+
+
+p{
+  font-size: 20px;
+}
+
+
+/* Header Class */
+
+.header{
+  background-color: lavenderblush;
+  filter: drop-shadow(2px 2px 4px #8888);
+  display: inline-block;
+  height: 250px;
+  width: 500px;
+}
+
+.header h1{
+  padding: 20px;
+  text-align: center;
+}
+
+.header ul{
+  font-size: 15px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header ul li{
+display: inline-block;
+margin: 10px;
+
+}
+
+
+/* Main Section */
+
+#main {
+  display: block;
+}
+
+
+/* Tabs Class */
+
+
+.tabs{
+  display: flex;
+  margin: 180px;
+  filter: drop-shadow(2px 2px 4px #8888);
+  background-color: lavenderblush;
+  padding: 30px;
+  text-align: justify;
+}
+
+
+/* Cast Tab */
+
+.cast img{
+  width: 500px;
+}
+
+
+.bio {
+  padding: 10px;
+  text-align:left;
+}
+
+
+/* Review Tab */
+
+.review{
+text-align: center;
+  padding: 30px;
+}
+
+
+/* Sponsors Tab */
+
+.spons img{
+  padding: 30px;
+  display:flex;
+  justify-content: center;
+}
+
+
+/* Scroll to top button */
+
+.scrollup {
+  position: fixed;
+  bottom:0px;
+  right:0px;
+}
